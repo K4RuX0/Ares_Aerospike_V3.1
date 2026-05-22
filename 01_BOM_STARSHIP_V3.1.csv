@@ -1,13 +1,13 @@
 System,Item,Spec,Mass_kg,USD,TRL
-Propulsion,Aerospike Chamber Inconel-718,28.7mm wall x4,7254,4000000,5
-Propulsion,Central Spike C-C/NbC Structure,4.5m H x4,3886,14000000,4
-Propulsion,NTR Reactor UC-ZrC HALEU Core,0.6mDx0.9mL x4 @185kN,20000,32000000,5
-Propulsion,LH2 Turbopumps High-Flow Array,96.7 kg/s @ 125bar,8000,16000000,6
-Structure,LH2 Heavy Tank Al-Li (9m),9mD x 250.0mH,126300,9000000,8
+Propulsion,Aerospike Chamber Inconel-718,28.7mm wall x4,7268,4000000,5
+Propulsion,Central Spike C-C/NbC Structure,4.5m H x4 @1350K,3892,14000000,4
+Propulsion,NTR Reactor UC-ZrC-NbC HALEU Core,0.6mDx0.9mL x4 @185kN/3100K,20000,32000000,5
+Propulsion,LH2 Turbopumps High-Flow Array,82.0 kg/s @ 125bar,8000,16000000,6
+Structure,LH2 Tank Al-Li (9m),9mD x 250.1mH,95000,9000000,8
 Structure,ATHENA Habitat Core Module,380m³ for 6,10000,15000000,7
 EHS,Radiation Shield PE+H2O Matrix,20g/cm²,8000,500000,9
-EHS,ECLSS Closed-Loop Standard,776 days,5820,20000000,6
+EHS,ECLSS Closed-Loop,776 days,5820,20000000,6
 Power,Brayton 100kWe Power System,45kg/kWe,4500,10000000,6
-Avionics,ODIN AI Triple Voting Array,100krad 10CFR52,3800,1200000,7
+Avionics,ODIN AI Triple Voting Array,100krad CNEN/AEB,3800,1200000,7
 Thermal,Radiators Extended Core,2000m²,2000,4000000,7
-TOTAL,,,199400,125700000,
+TOTAL,,,185000,125700000,

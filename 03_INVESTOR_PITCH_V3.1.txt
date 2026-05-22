@@ -1,24 +1,20 @@
-ARES-STARSHIP V3.1 - INVESTOR ONE PAGER - Prometheus I Balanced
+ARES-STARSHIP V3.1 - INVESTOR ONE PAGER - Prometheus I
 
-Problem: Chemical Mars = 9 months, $200M+ per crew, high radiation risks.
-Solution: 740kN (4x 185kN NTR Cluster) Nuclear Aerospike Freighter, 125-day transit.
+Problem: Chemical Mars = 9 months, high radiation.
+Solution: 740kN (4x 185kN NTR) Nuclear Aerospike, 119-day transit from Alcântara.
 
 Technical Edge:
-- Thrust: 4x 185kN NTR = 740kN | Isp: 780s | T/W: 0.05
-- Pad Mass: 1452.7t | Height: 266.5m | Diameter: 9m (Standard Starship Integration)
-- Crew Count: 6 | Shielding: 20g/cm² | Power: 100kWe
-- Mission Window: 776 days | Habitat: 380m³ ATHENA Module
-- Heritage: NERVA + 10CFR52 / ITAR Compliant
-- Redundancy: Engine-out abort to LEO with 3x NTR (Engine-out T/W: 0.04)
+- Thrust: 4x 185kN = 740kN | Isp: 920s | T/W: 0.41
+- LEO Mass: 1407.0t | Height: 266.6m | Diameter: 9m
+- Crew: 6 | Shielding: 20g/cm² | Power: 100kWe
+- Mission: 776 days | Habitat: 380m³
+- Heritage: NERVA + CNEN/AEB + 10CFR52 Compliant
+- Redundancy: Engine-out abort with 3x NTR
 
 Business Case:
-- Fleet Asset Valuation: $ 125.7M Unit Production Cost
-- Saves $3.8B per Mars mission vs traditional chemical fuels
-- Payload TMI: 71t per mission
-- Target Market: NASA deep space assets, DoD Logistics, Space Force
+- Unit Cost: $116.2M
+- Payload TMI: 71t
+- No refuel required - margin 833 m/s
 
-Ask: $22M Seed Funding -> TRL-4 170kN demonstrator + 4x cluster CFD in 18mo
-Milestone: 300s hot-fire validation with NASA/DOE labs
-
-Contact: Ranyellson Quintão
-ranyellson@gmail.com
+Ask: $22M Seed -> TRL-4 demonstrator in 18mo
+Contact: ranyellson@gmail.com

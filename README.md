@@ -1,9 +1,9 @@
-# ARES-STARSHIP V3.2BR — Prometheus I Mission
+# ARES-STARSHIP V3.1 — Prometheus I Mission
 
 **Manned Interplanetary Freighter with Nuclear-Thermal Aerospike Propulsion**  
 `CLASSIFICATION: OFFICIAL USE | AUTHOR: RANYELLSON QUINTÃO | DATE: 05/22/2026 | LAUNCH SITE: ALCÂNTARA, BRAZIL`
 
-> ARES V3.2BR is not designed to carry six people to Mars. It is designed to extend human civilization beyond Earth — with a round trip on a single tank, launched from the equator.
+> ARES V3.1 is not designed to carry six people to Mars. It is designed to extend human civilization beyond Earth — with a round trip on a single tank, launched from the equator.
 
 ## Mission Summary: Prometheus I
 
@@ -13,12 +13,12 @@
 | **Launch Site** | Alcântara Space Center, Brazil (2.3°S) |
 | **Launch Architecture** | Chemical booster to 400 km LEO, NTR ignition in vacuum only |
 | **Total Duration** | 776 days |
-| **Vehicle** | ARES-STARSHIP V3.2BR — Reusable NTR Interplanetary Freighter |
+| **Vehicle** | ARES-STARSHIP V3.1 — Reusable NTR Interplanetary Freighter |
 | **Launch Window** | 2034 |
 
 ## 1. Vehicle Overview
 
-ARES-STARSHIP V3.2BR is a conceptual reusable interplanetary transport vehicle designed for crewed Mars missions with return capability. The architecture combines nuclear-thermal propulsion, aerospike nozzle efficiency, and a long-duration habitation module optimized for deep-space operations.
+ARES-STARSHIP V3.1 is a conceptual reusable interplanetary transport vehicle designed for crewed Mars missions with return capability. The architecture combines nuclear-thermal propulsion, aerospike nozzle efficiency, and a long-duration habitation module optimized for deep-space operations.
 
 ### 1.1 General Specifications
 | Parameter | Value | Note |
@@ -110,7 +110,7 @@ The return sequence begins with departure burn, followed by cruise, Earth arriva
 This repository presents a conceptual systems-engineering study. The mission architecture, performance numbers, and operational assumptions are early-stage estimates intended for analysis, iteration, and future validation.
 
 ### Main Premises
-- Mass and performance values validated by V3.2BR code (Delta-V 14.57 km/s).
+- Mass and performance values validated by V3.1 code (Delta-V 14.57 km/s).
 - Launch from Alcântara provides 463 m/s equatorial bonus.
 - NTR activation only above 400 km per CNEN/AEB and 10 CFR 52.
 - Mission timelines assume favorable launch windows and trajectory conditions.
@@ -135,7 +135,7 @@ All results should be reproducible and traceable to assumptions, models, or simu
 
 The project will be considered technically mature when it satisfies the following criteria:
 
-- Closed mass balance with explicit margins (V3.2BR: +833 m/s).
+- Closed mass balance with explicit margins (V3.1: +833 m/s).
 - Mission profile consistent with the delta-v budget (13.74 km/s required with Alcântara, 14.57 km/s available).
 - Functional redundancy in propulsion, ECLSS, and control.
 - Simulation-backed verification of thermal, structural, and radiation behavior.
@@ -206,7 +206,7 @@ For that reason, the values in this document should be interpreted as target arc
 
 ## 13. Executive Summary
 
-ARES-STARSHIP V3.2BR is a conceptual interplanetary transport platform launched from Alcântara, Brazil, built around reusable nuclear-thermal propulsion and long-duration crew survival, capable of round-trip Mars missions without refueling.
+ARES-STARSHIP V3.1 is a conceptual interplanetary transport platform launched from Alcântara, Brazil, built around reusable nuclear-thermal propulsion and long-duration crew survival, capable of round-trip Mars missions without refueling.
 
 Its strength lies in the combination of mission ambition, systems thinking, and equatorial launch advantage. The next step is to convert that vision into reproducible engineering evidence, simulation-backed validation, and disciplined technical documentation.
 

@@ -1,6 +1,6 @@
-MIT License (Nuclear Tech ITAR/10CFR52 Compliant Baseline)
+MIT License - ARES-STARSHIP V3.1
 
-Copyright (c) 2026 Ranyellson Quintão (CMDR K4RuX0)
+Copyright (c) 2026 Ranyellson Quintão
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -12,7 +12,11 @@ furnished to do so, subject to the following conditions:
 1. The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-2. EXPORT CONTROL COMPLIANCE NOTICE: This code represents an illustrative and non-operational, non-ITAR classified, unclassified conceptual mathematical baseline. It contains no restricted, enriched fissile geometries, criticality calculations, or actionable military data subject to ITAR (International Traffic in Arms Regulations) restrictions or DOE 10CFR52 nuclear design limitations. Any derivative deployment for unauthorized military or proliferation use is strictly prohibited.
+2. EXPORT CONTROL NOTICE: This repository contains conceptual, non-operational
+engineering models for educational purposes only. It does not include ITAR-controlled
+technical data (22 CFR 120-130), DOE Restricted Data, or detailed nuclear weapon
+design information as defined in 10 CFR Part 810. Users are solely responsible
+for compliance with applicable export control laws in their jurisdiction.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

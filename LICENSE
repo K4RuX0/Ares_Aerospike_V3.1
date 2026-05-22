@@ -12,7 +12,7 @@ furnished to do so, subject to the following conditions:
 1. The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-2. EXPORT CONTROL COMPLIANCE NOTICE: This code represents a highly simplified, non-ITAR classified, unclassified conceptual mathematical baseline. It contains no restricted, enriched físsile geometries, or actionable military data subject to ITAR (International Traffic in Arms Regulations) restrictions or DOE 10CFR52 nuclear design limitations. Any derivative deployment for unauthorized military or proliferation use is strictly prohibited.
+2. EXPORT CONTROL COMPLIANCE NOTICE: This code represents an illustrative and non-operational, non-ITAR classified, unclassified conceptual mathematical baseline. It contains no restricted, enriched fissile geometries, criticality calculations, or actionable military data subject to ITAR (International Traffic in Arms Regulations) restrictions or DOE 10CFR52 nuclear design limitations. Any derivative deployment for unauthorized military or proliferation use is strictly prohibited.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

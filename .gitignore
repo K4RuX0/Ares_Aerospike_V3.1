@@ -1,22 +1,19 @@
-# CAD - ITAR RISK - NEVER PUSH
-*.step
-*.stp
-*.sldprt
-*.sldasm
-*.f3d
-*.catpart
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
 
-# Logs e SO
-*.log
+# Dados pesados do ARES V3.1
+*.step
+*.stl
+*.obj
+*.blend
+simulations/
+data/
+*.csv
+
+# OS
 .DS_Store
 Thumbs.db
-
-# Segredos
-.env
-secrets/
-*.key
-*.pem
-
-# Simulação pesada
-results/
-cfd/

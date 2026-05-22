@@ -1,7 +1,7 @@
 # =========================================================================
 # ARES-STARSHIP V3.1 - FULL VEHICLE EXECUTION READY (4x NTR HEAVY SYSTEM)
 # STATUS: ISP 780S | T/W 0.52 | REALISTIC TRANSIT PROFILES | 10CFR52 COMPLIANT
-# CONTACT: ranyellson@gmail.com | +55 31 98837-8286
+# CONTACT: ranyellson@gmail.com
 # =========================================================================
 import math, csv
 

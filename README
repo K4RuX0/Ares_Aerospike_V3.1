@@ -10,8 +10,6 @@
 | Parameter | Value |
 | --- | --- |
 | **Objective** | Transport 6 crew + 71 t payload to Mars orbit with Earth return |
-| **Launch Site** | Alcântara Space Center, Brazil (2.3°S) |
-| **Launch Architecture** | Chemical booster to 400 km LEO, NTR ignition in vacuum only |
 | **Total Duration** | 776 days |
 | **Vehicle** | ARES-STARSHIP V3.1 — Reusable NTR Interplanetary Freighter |
 | **Launch Window** | 2034 |
@@ -30,7 +28,6 @@ ARES-STARSHIP V3.1 is a conceptual reusable interplanetary transport vehicle des
 | Payload to TMI | 71 t | Post-TMI injection toward Mars |
 | Payload to Mars Surface | 45 t | After MOI and EDL losses |
 | Crew | 6 | Long-duration mission |
-| Earth Rotation Bonus | +463 m/s | Equatorial launch advantage |
 
 ### 1.2 Propulsion System
 1. **Configuration**: 4x NTR units producing 185 kN each, for a total of 740 kN in vacuum.
@@ -45,7 +42,7 @@ ARES-STARSHIP V3.1 is a conceptual reusable interplanetary transport vehicle des
 ### 1.3 ATHENA Crew Module
 1. **Habitable Volume**: 380 m³ total.
 2. **ECLSS**: Closed-loop system with 90% water and oxygen recycling.
-3. **Radiation Shielding**: 20 cm polyethylene plus water shielding (20 g/cm²).
+3. **Radiation Shielding**: 20 cm polyethylene plus water shielding.
 4. **Artificial Gravity**: Cable rotation system at 2.5 RPM for 0.38 g during cruise.
 5. **Onboard AI**: ODIN manages navigation, reactor coordination, and life support supervision.
 6. **Crew Support**: Gym, medical lab, and partial hydroponic food production.
@@ -68,7 +65,7 @@ ARES-STARSHIP V3.1 is a conceptual reusable interplanetary transport vehicle des
 ## 3. Mission Profile
 
 ### Phase 1 — LEO Assembly | T+0 to T+30
-Four launches from Alcântara assemble the ARES vehicle and crew in 400 km orbit. Twelve tanker flights deliver the liquid hydrogen required for trans-Mars injection. NTR remains cold until orbital checkout.
+Four launches assemble the ARES vehicle and crew in 400 km orbit. Twelve tanker flights deliver the liquid hydrogen required for trans-Mars injection.
 
 ### Phase 2 — Trans-Mars Injection | T+31
 A 28 minute 14 second burn places the vehicle on its interplanetary trajectory. The propulsion system delivers the required delta-v with operational margin.
@@ -83,7 +80,7 @@ A 22 minute capture burn inserts the vehicle into Mars orbit. Redundant engine c
 The crew supports a 498 day mission phase focused on surface operations, base construction, ISRU deployment, and resource production for return logistics.
 
 ### Phase 6 — TEI and Return | T+651 to T+776
-The return sequence begins with departure burn, followed by cruise, Earth arrival, and aerocapture-assisted recovery — all on initial propellant load.
+The return sequence begins with departure burn, followed by cruise, Earth arrival, and aerocapture-assisted recovery.
 
 ## 4. Risk Management
 
@@ -103,7 +100,7 @@ The return sequence begins with departure burn, followed by cruise, Earth arriva
 2. **Scientific Value**: Supports high-capacity planetary science, biology, and habitat development on Mars.
 3. **Civilizational Value**: Expands humanity beyond a single planetary surface.
 4. **Industrial Value**: Creates a framework for reusable interplanetary transport and supporting infrastructure.
-5. **Geopolitical Value**: Establishes Brazil as equatorial launch hub for cislunar and Martian operations.
+5. **Geopolitical Value**: Establishes a technological foundation for cislunar and Martian operations.
 
 ## 6. Premises and Scope
 
@@ -111,10 +108,10 @@ This repository presents a conceptual systems-engineering study. The mission arc
 
 ### Main Premises
 - Mass and performance values are conceptual estimates.
-- Launch from Alcântara provides 463 m/s equatorial bonus.
-- NTR activation only above 400 km per CNEN/AEB and 10 CFR Part 810.
 - Mission timelines assume favorable launch windows and trajectory conditions.
 - Subsystems are documented at architectural level rather than as final certified designs.
+- Risk values are reference estimates, not operational guarantees.
+- The repository is intended to evolve through simulation, validation, and refinement.
 
 ## 7. Methodology
 
@@ -145,11 +142,11 @@ The project will be considered technically mature when it satisfies the followin
 ## 9. Risks and Limitations
 
 This version still depends on:
-- high-temperature material validation at 2800K;
-- propulsion performance verification at 780s Isp;
+- high-temperature material validation;
+- propulsion performance verification;
 - radiation shielding analysis;
 - long-duration reliability studies;
-- CNEN licensing for nuclear systems launched from Brazil.
+- logistical modeling for Earth and Mars operations.
 
 For that reason, the values in this document should be interpreted as target architecture, not certified performance.
 
@@ -171,14 +168,13 @@ For that reason, the values in this document should be interpreted as target arc
 - Document results, assumptions, and limitations.
 
 ### Phase 4 — Consolidation
-- Conduct technical review with AEB/CNEN.
+- Conduct technical review.
 - Standardize documentation.
 - Prepare for public demonstration.
 
 ## 11. Repository Structure
 /
 ├── README.md
-├── LICENSE
 ├── docs/
 │   ├── mission_concept.md
 │   ├── assumptions.md
@@ -207,9 +203,9 @@ For that reason, the values in this document should be interpreted as target arc
 
 ## 13. Executive Summary
 
-ARES-STARSHIP V3.1 is a conceptual interplanetary transport platform launched from Alcântara, Brazil, built around reusable nuclear-thermal propulsion and long-duration crew survival, capable of round-trip Mars missions without refueling.
+ARES-STARSHIP V3.1 is a conceptual interplanetary transport platform built around reusable nuclear-thermal propulsion and long-duration crew survival.
 
-Its strength lies in the combination of mission ambition, systems thinking, and equatorial launch advantage. The next step is to convert that vision into reproducible engineering evidence, simulation-backed validation, and disciplined technical documentation.
+Its strength lies in the combination of mission ambition, systems thinking, and a clear strategic identity. The next step is to convert that vision into reproducible engineering evidence, simulation-backed validation, and disciplined technical documentation.
 
 ## 14. Contributing and Validation
 
@@ -230,5 +226,4 @@ Every contribution should clearly state:
 
 ---
 
-*Contact: ranyellson@gmail.com*  
 *This repository presents a conceptual systems-engineering study. Numbers, assumptions, and mission outcomes are subject to refinement as the project evolves.*

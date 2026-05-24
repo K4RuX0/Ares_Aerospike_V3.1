@@ -1,30 +1,34 @@
-# Aerocapture and Atmospheric Entry Subsystem — ARES V4.0
+# Aerocapture and Atmospheric Entry Subsystem
 
-`CLASSIFICATION: Systems Engineering Design Specification`
-`TARGET: Martian entry and Earth re-entry velocity management for 2030 flight envelope`
+`CLASSIFICATION: Systems Engineering Specification`
 
-## 1. Thermodynamic Profile and Ablative Aerothermal Shielding
+`TARGET: Mars and Earth Entry Horizon 2030`
 
-To maximize payload mass fractions, ARES V4.0 bypasses chemical propulsion brake cycles at Mars and Earth, utilizing atmospheric friction (**Aerocapture**) to enter stable parking orbits.
+## 1. Thermodynamic Profile and Shielding
 
-*   **Entry Velocity Profile ($v_e$):** Peak entry at Mars interface begins at **$7.2 \text{ km/s}$**. Earth re-entry profile scales to **$11.2 \text{ km/s}$**.
-*   **Peak Heat Flux Generation:** Extreme kinetic compression impacts the 9-meter hull, scaling aerothermal heat generation to **$450 \text{ W/cm}^2$** at Mars entry corridor.
-*   **Thermal Protection System (TPS) Matrix:** 
-    *   **Primary Nose Cap and Leeward Ribs:** Rigid Carbon-Carbon (C-C) tiled arrays matrix providing multi-use structural integrity up to 2200 K.
-    *   **Windward Hull Surface:** Phenolic-Impregnated Carbon Ablator (**PICA-X standard**) advanced layer. This ablatible matrix dissipates thermal load smoothly via chemical pyrolysis, scaling structural safety factors to 1.5.
-## 2. Dynamic Mechanical Stowage: Mirror Protection Protocol
+ARES V4.0 utilizes atmospheric friction for braking.
+This eliminates heavy chemical fuel consumption.
 
-The 2x Solar Thermal Propulsion (STP) inflatable parabolic mirror assemblies are highly vulnerable to hypersonic aerodynamic loads. 
+* Entry Velocity at Mars: Begins at 7.2 km/s.
+* Entry Velocity at Earth: Scales to 11.2 km/s.
+* Peak Heat Flux Generation: 450 W/cm² at Mars.
+* Thermal Protection System (TPS) Matrix:
+  - Nose Cap: Rigid Carbon-Carbon arrays.
+  - Windward Hull: PICA-X advanced layers.
+  - Pyrolysis cooling scales safety factor to 1.5.
+## 2. Dynamic Mechanical Stowage Protocol
 
-[Deep Space Cruise Mode] -> Mirrors Deployed (2500 m² total exposure area)
-|
-[Atmospheric Entry Ingress T-6 Hours] -> Active Helium venting initiated by ODIN AI
-|
-[Mechanical Desegregation] -> Rigid support masts telescoped back into central bulkhead
-|
-[Hermetic Hull Closure] -> Reinforced PICA-coated mechanical doors locked and sealed
-## 3. Martian Atmosphere Trajectory Corrections
+The 2x STP mirror assemblies are stowed for entry.
+The ODIN AI triggers automatic helium venting.
 
-Due to the extreme volatility and low density of the Martian CO₂ atmosphere, ARES V4.0 features mid-entry guidance using **Reaction Control System (RCS) gas thruster blocks**:
+* Masts telescope back into the central bulkhead.
+* Reinforced PICA mechanical doors close tight.
+* Lockout telemetry is verified before entry.
+## 3. Martian Atmosphere Trajectory Control
 
-*   **Hypersonic Lifting Body Dynamics:** The nose profile of the 9m hull is asymmetric, generating a lifting ratio ($L/D \sim 0.24$). By rotating the ship along its roll axis, the ODIN flight guidance vector modulates lift to stay strictly within the entry corridor corridor window, eliminating skip-out risks.
+Martian CO2 atmosphere is very thin.
+ARES V4.0 features Reaction Control Systems (RCS).
+
+* Asymmetric nose generates lift ratio (L/D ~ 0.24).
+* Shifting roll axis stabilizes the vehicle trajectory.
+* Active guidance avoids any skip-out risks.

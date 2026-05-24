@@ -1,23 +1,44 @@
-ARES-STARSHIP V3.1 - MASS BREAKDOWN - Prometheus I Mission
+ARES-SPACE TRANSPORT V4.0 - RELATÓRIO DE MASSA - Missão Prometheus I e Alvo Lunar
+DIREÇÃO DE ENGENHARIA DE SISTEMAS: Ranyellson Quintão
+SISTEMA ATUALIZADO: Propulsão Térmica Solar (STP) + Metano Líquido (LCH4)
 
-LAUNCH SITE: Alcântara, Brazil (2.3°S) (+463 m/s bonus)
-LEO TOTAL: 1407.0 t
-Dry Mass: 185.0 t
-Propellant LH2: 1127.0 t
-Tanks: 95.0 t
-T/W RATIO (orbital): 0.41
-Engine-Out T/W: 0.31 (3 engines)
-Total Height: 266.6 m
+BASE DE LANÇAMENTO: Centro de Lançamento de Alcântara, Brasil (2.3°S) (+463 m/s de bônus equatorial)
+MASSA TOTAL EM ÓRBITA (LEO TOTAL): 1325.0 t
+Massa Seca Estrutural (Dry Mass): 120.0 t (Otimizada sem o peso de blindagens nucleares)
+Propelente Total nos Tanques (LCH4): 1130.0 t
+Massa da Estrutura de Tanques Al-Li: 75.0 t (Reduzida devido à alta densidade do metano)
+RAZÃO EMPUXO/PESO (T/W Orbital em LEO): 0.31
+Redundância de Motor (Engine-Out T/W - 1/2 ativo): 0.16 (Capacidade de aborto preservada)
+Altura Total do Veículo: 49.3 m (Fuselagem estabilizada estruturalmente para 9m de diâmetro)
 
-Propulsion: 4x NTR @ 185kN = 740kN Total
-Delta-V available: 14570 m/s | Required: 13737 m/s
-Margin: 833 m/s
-Isp: 920s @ 3100K
-Mission Duration: 776 days | Crew: 6
-Habitat Volume: 380 m³ | 63 m³/crew
+PROPULSÃO: 2x Motores STP Aerospike Arrays @ 185kN = 370kN de Empuxo Combinado (em 1.0 AU)
+Impulso Específico Real (Isp): 620.0 s (Derivado de equações isentrópicas reais a 3200K)
+Temperatura Operacional da Câmara: 3200.0 K (Anulação de fadiga via Carboneto de Tântalo-Háfnio)
+Proteção contra Corrosão Química: ATIVA (Camada atômica protetora de Irídio)
+Volume do Tanque Necessário: 2673.9 m³ de LCH4 @ 422.6 kg/m³ (6x mais compacto que o Hidrogênio!)
+------------------------------------------------------------------------
+FASE I: MISSÃO LOGÍSTICA LUNAR (IDA E VOLTA CISLUNAR INTEGRADA)
+------------------------------------------------------------------------
+Duração Operacional da Fase I: 28 dias de validação espacial profunda
+Capacidade de Carga Útil Lunar Alocada: 55.0 t (Módulos de infraestrutura e ciência)
+Delta-V Requerido com Margem Gravitacional: 8400.0 m/s
+Consumo Computado de Metano Líquido: 1042.8 t
+Margem de Sobra de Combustível nos Tanques: 87.2 t
+VIABILIDADE CINÉTICA DA FASE I: APROVADO PARA EXECUÇÃO (Sem necessidade de reabastecimento)
 
-Key Ratios:
-- Propellant Fraction: 80.1%
-- Shielding: 20 g/cm² PE+H2O
-- Transit: 119 days to Mars
-- Tank Volume: 15907.5 m³ LH2 @ 70.85 kg/m³
+------------------------------------------------------------------------
+FASE II: MISSÃO INTERPLANETÁRIA (JORNADA DIRETA PARA MARTE)
+------------------------------------------------------------------------
+Duração Total da Missão Prometheus I: 776 dias (Crew: 6 astronautas)
+Volume do Módulo Habitacional ATHENA: 380 m³ | Espaço por Tripulante: 63.3 m³
+Capacidade de Carga Útil Injetada (Payload TMI): 71.0 t
+Delta-V Requerido para Manobra de Escape de LEO: 4200.0 m/s
+Gasto de Combustível para Ignição Trans-Marte: 693.1 t
+Sobra de Combustível nos Tanques para Manobras em Marte: 436.9 t
+VIABILIDADE CINÉTICA DA FASE II: APROVADO PARA EXECUÇÃO (A partir de LEO reabastecido)
+
+Métricas Críticas de Engenharia de Sistemas:
+- Fração de Propelente sobre Massa de Lançamento: 85.2%
+- Proteção contra Radiação: Blindagem Passiva Avançada de Polietileno + Água
+- Prevenção de Desperdício Térmico: Sistema Ativo Zero Boil-Off (ZBO) por tubo de pulso
+- Gerenciamento Logístico: 100% livre de salvaguardas ou restrições radioativas internacionais

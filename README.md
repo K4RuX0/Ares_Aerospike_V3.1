@@ -1,9 +1,11 @@
 # ARES-SPACE TRANSPORT V4.0 — Project Prometheus I
 
-![Python](https://shields.io)
-![License](https://shields.io)
-![Status](https://shields.io)
-![Launch Site](https://shields.io)
+
+| 📦 Tecnologia | 📜 Licença | ⚙️ Status | 📍 Base de Lançamento |
+| :---: | :---: | :---: | :---: |
+| **Python 3.10+** | **MIT License** | **Conceptual Design** | **Alcântara, Brazil** |
+
+---
 
 **ARES V4.0** é um modelo de arquitetura conceitual e simulação computacional em código aberto para um cargueiro espacial reutilizável de alta eficiência. Originalmente projetado com propulsão nuclear, o projeto foi totalmente atualizado para a versão 4.0 para atender às demandas de viabilidade comercial, segurança regulatória e sustentabilidade com foco no horizonte de **2030**.
 

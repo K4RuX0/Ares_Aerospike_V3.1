@@ -1,13 +1,12 @@
-System,Item,Spec,Mass_kg,USD,TRL
-Propulsion,Aerospike Chamber Inconel-718,28.7mm wall x4,7268,4000000,5
-Propulsion,Central Spike C-C/NbC Structure,4.5m H x4 @1350K,3892,14000000,4
-Propulsion,NTR Reactor UC-ZrC-NbC HALEU Core,0.6mDx0.9mL x4 @185kN/3100K,20000,32000000,5
-Propulsion,LH2 Turbopumps High-Flow Array,82.0 kg/s @ 125bar,8000,16000000,6
-Structure,LH2 Tank Al-Li (9m),9mD x 250.1mH,95000,9000000,8
-Structure,ATHENA Habitat Core Module,380m³ for 6,10000,15000000,7
-EHS,Radiation Shield PE+H2O Matrix,20g/cm²,8000,500000,9
-EHS,ECLSS Closed-Loop,776 days,5820,20000000,6
-Power,Brayton 100kWe Power System,45kg/kWe,4500,10000000,6
-Avionics,ODIN AI Triple Voting Array,100krad CNEN/AEB,3800,1200000,7
-Thermal,Radiators Extended Core,2000m²,2000,4000000,7
-TOTAL,,,185000,125700000,
+System,Item,Spec,Mass_kg,USD,TRL_2030
+Propulsion,Aerospike Chamber Expansion Line,4.5mm Ta4HfC5 Matrix x2 Engines,2400,2500000,7
+Propulsion,Inner Engine Iridium Film Coating,Anti-corrosive atomic barrier layer,150,4500000,8
+Propulsion,Inflatable Parabolic Mirror Array,1250m2 Mylar Coated x2 Units,1200,3100000,7
+Propulsion,LCH4 Turbopumps High-Density Array,15.0 kg/s stable mass flow,3500,7000000,8
+Structure,LCH4 Cryogenic Tank Al-Li (9m),9mD x 42.0mH Heavy Duty Shell,75000,6500000,9
+Structure,ATHENA Habitat Core Module,380m3 Internal Volume for 6 Crew,10000,15000000,8
+Thermal,Active ZBO Pulse Tube Cryocoolers,2.5 kW Active Helium Loop Array,1800,3800000,7
+Thermal,MLI + Silica Aerogel Insulation Shield,0.001 Transmittance Factor Matrix,2200,1200000,9
+EHS,ECLSS Regenerative Closed-Loop,90% Water & Oxygen Recycling Matrix,4500,12000000,7
+Avionics,ODIN AI Navigation & Autonomous Core,Radiation Hardened CNEN/AEB Core,1500,2100000,8
+TOTAL,VEICULO COMPLETO V4.0,STP METHANE CONFIGURATION,120250,66700000,
